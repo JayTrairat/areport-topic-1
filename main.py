@@ -20,8 +20,8 @@ def main():
         for post in POST[type]
     ]
 
-    print(naming_list)
-
+    with open('assets/result.txt', 'w', encoding='utf8') as outp:
+        outp.write('\n'.join(naming_list))
 
 if __name__ == '__main__':
     main()
