@@ -11,7 +11,7 @@ def main():
         MIDPOST = yaml.load(source)
     with open('assets/important_words/pos_4.yml', 'r', encoding='utf8') as source:
         POST = yaml.load(source)
-    type = "number"
+    type = "datetime"
     naming_list = [
         pre + midpre + midpost + post
         for pre in PRE['all']
