@@ -60,9 +60,5 @@ def main():
     print("DF2 :: " + str(n - 3))
     print("f-criticle :: " + str(3.35413083))
 
-    # result = stats.f_oneway(date_time, text, number)
-    # print(result)
-
-
 if __name__ == '__main__':
     main()
